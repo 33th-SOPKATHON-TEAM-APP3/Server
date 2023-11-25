@@ -68,13 +68,13 @@
 ┃  ┣ 📂 common
 ┃     ┃  ┣ ApiResponse.class
 ┃     ┃  ┣ SuccessStatus.class
-┃     ┣ 📂 Advice
+┃     ┣ 📂 Advice
 ┃     ┃  ┣ ControllerExceptionAdvice.class
 ┃     ┣ 📂 error
 ┃        ┣ BusinessException.class
 ┃  ┃
 ┃  ┣ 📂 exception
-┃     ┣ 📂 model
+┃     ┣ 📂 model
 ┃     ┃  ┣ CustomException.class
 ┃     ┃  ┣ NotFoundException.class
 ┃     ┣ Error.class
