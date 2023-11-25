@@ -94,8 +94,8 @@
 ```
 
 
-# Code Convention & Git Convention
-노션 URL : https://merciful-goldenrod-955.notion.site/Git-Convention-640d833fea504eb4aec83cf9cc52be4c?pvs=4
+# Git & Code Convention
+### ✔️ [ 코드 컨벤션 보러가기 (클릭!) ](https://merciful-goldenrod-955.notion.site/Git-Convention-640d833fea504eb4aec83cf9cc52be4c?pvs=4)
 
 
 ```
