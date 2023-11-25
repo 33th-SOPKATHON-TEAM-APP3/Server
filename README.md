@@ -1,39 +1,27 @@
-## 👩🏻‍💻 팀원 소개
+# 🍀 왔당 (what dang? : 뭐가 당연해?)
 
-<table>
-    <tr align="center">
-              <td style="min-width: 200px;">
-            <a href="https://github.com/ziiyouth">
-              <img src="https://github.com/ziiyouth.png" width="100">
-              <br />
-              <b>박지영 (ziiyouth)</b>
-            </a>
-                       <br/>
-              Server
-        </td>
-        <td style="min-width: 200px;">
-            <a href="https://github.com/sss4920">
-              <img src="https://github.com/sss4920.png" width="100">
-              <br />
-              <b>김수현(sss4920)</b>
-            </a> 
-            <br/>
-       
- Server
-    </tr>
 
-</table>
+## 🙆🏻‍♀️🙅🏻‍♂️ 프로젝트 설명 
+> 🌟 33rd SOPT 해커톤, "솝커톤" iOS 3조
+~~~
+"어라라..이런 상황이 나에게 닥친다면?"
 
-## 📱 프로젝트 명 :
+일상속에서 당신이 놓치고 있던 당연함의 부재를 통해 나를 파악하는 기록 서비스, '왔당' 입니다.
+~~~
+
+## 💻 역할 분담 및 주요 기능
+| [박지영(ziiyouth)](https://github.com/ziiyouth) | [김수현(sss4920)](https://github.com/sss4920) |
+| :--------: | :--------: |
+| <img src="https://github.com/ziiyouth.png" width="200px"/> | <img src="https://github.com/sss4920.png" width="200px"/> |
+| Back-end | Back-end |
 
 
 
-<br />
+## ✨ ERD
+![image](https://github.com/33th-SOPKATHON-TEAM-APP3/Server/assets/101448999/8c44f97b-70a5-48f7-b110-10404de7e296)
 
-## 데이터베이스 
 
 
-<hr/>
 <br />
 
 
@@ -95,11 +83,9 @@
 
 
 # Git & Code Convention
-### ✔️ [ 코드 컨벤션 보러가기 (클릭!) ](https://merciful-goldenrod-955.notion.site/Git-Convention-640d833fea504eb4aec83cf9cc52be4c?pvs=4)
+### ✔️ [ 왔당 서버의 코드 컨벤션 보러가기 (클릭!) ](https://merciful-goldenrod-955.notion.site/Git-Convention-640d833fea504eb4aec83cf9cc52be4c?pvs=4)
 
-
-```
 
 # API NEEDS
-
+### ✔️ [ 왔당 서버의 API 명세서 보러가기 (클릭!) ](https://merciful-goldenrod-955.notion.site/API-1448b24b8cb94e1d9c12df0e013dd1f3?pvs=4)
 ---
