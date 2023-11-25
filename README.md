@@ -1,5 +1,5 @@
-![IMG_1798](https://github.com/33th-SOPKATHON-TEAM-APP3/Server/assets/101448999/b353245e-058a-46cb-9ef4-90e05854b007)# 🍀 왔당 (what dang? : 뭐가 당연해?)
-
+# 🍀 왔당 (what dang? : 뭐가 당연해?)
+<img width="1920" alt="Slide 16_9 - 33" src="https://github.com/33th-SOPKATHON-TEAM-APP3/Server/assets/101448999/a220866d-b537-4cc0-ad75-3866aa8b428f">
 
 ## 🙆🏻‍♀️🙅🏻‍♂️ 프로젝트 설명 
 > 🌟 33rd SOPT 해커톤, "솝커톤" iOS 3조
@@ -8,6 +8,8 @@
 
 일상속에서 당신이 놓치고 있던 당연함의 부재를 통해 나를 파악하는 기록 서비스, '왔당' 입니다.
 ~~~
+
+
 
 ## 💻 역할 분담 및 주요 기능
 | [박지영(ziiyouth)](https://github.com/ziiyouth) | [김수현(sss4920)](https://github.com/sss4920) |
@@ -88,7 +90,9 @@
 
 ```
 ## 📢 아키텍쳐 구조도
-![image](https://github.com/33th-SOPKATHON-TEAM-APP3/Server/assets/101448999/b191d373-e8bd-4c62-8fef-dd5fc0873090)
+
+![image](https://github.com/33th-SOPKATHON-TEAM-APP3/Server/assets/101448999/e6f18606-032c-4290-9933-0a425e3b7f0c)
+
 
 
 ## 📢 실행 방법
