@@ -6,6 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -19,4 +20,11 @@ public class User {
 	private Long Id;
 	private String iosId;
 	private Boolean isAnswered;
+
+	@Builder
+	User(String iosId, Boolean isAnswered){
+		this.iosId = iosId;
+		this.isAnswered = isAnswered;
+	}
+
 }
