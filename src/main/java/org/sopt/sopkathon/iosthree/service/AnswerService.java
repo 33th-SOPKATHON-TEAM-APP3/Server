@@ -41,6 +41,9 @@ public class AnswerService {
                         .build()
                 );
 
+        user.setIsAnswered(true);
+        userJpaRepository.save(user);
+
         return new TodayAnswerResponse(true);
     }
 
