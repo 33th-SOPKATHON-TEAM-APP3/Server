@@ -26,6 +26,7 @@ public enum Success {
 	GET_MY_ANSWER_SUCCESS(HttpStatus.OK, "나의 답변 조회 성공"),
 	GET_RANDOM_ANSWER_SUCCESS(HttpStatus.OK, "랜덤 답변 조회 성공")
 	GET_QUESTION_SUCCESS(HttpStatus.OK, "오늘의 질문 조회 성공"),
+	GET_RANDOM_SUCCESS(HttpStatus.OK, "랜덤 질문 조회 완료"),
 
 	/**
 	 * 204 NO_CONTENT

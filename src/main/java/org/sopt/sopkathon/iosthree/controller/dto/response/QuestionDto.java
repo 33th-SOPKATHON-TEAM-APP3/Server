@@ -5,4 +5,7 @@ public record QuestionDto(
         String questionName
 
 ) {
+	public static QuestionDto of(Long questionId, String questionName){
+		return new QuestionDto(questionId, questionName);
+	}
 }

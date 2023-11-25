@@ -11,6 +11,7 @@ import java.util.Optional;
 public interface AnswerJpaRepository extends JpaRepository<Answer, Long> {
 
     Optional<Answer> findByUserAndQuestion(User user, Question question);
+    List<Answer> findByUser(User user);
 
     List<Answer> findByQuestionAndUserNot(Question question, User user);
 
