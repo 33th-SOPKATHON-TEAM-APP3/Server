@@ -63,16 +63,23 @@
 ┃  ┃     ┃  ┣ 📂 response
 ┃  ┣ 📂 service
 ┃  ┃
-┃  ┣ 📂 repository
+┃  ┣ 📂 infrastructure
 ┃  ┃
 ┃  ┣ 📂 common
 ┃     ┃  ┣ ApiResponse.class
 ┃     ┃  ┣ SuccessStatus.class
-┃     ┣ 📂 config
+┃     ┣ 📂 Advice
+┃     ┃  ┣ ControllerExceptionAdvice.class
 ┃     ┣ 📂 error
 ┃        ┣ BusinessException.class
-┃        ┣ ErrorStatus.class
-┃        ┣ GlobalExceptionHandler.class
+┃  ┃
+┃  ┣ 📂 exception
+┃     ┣ 📂 model
+┃     ┃  ┣ CustomException.class
+┃     ┃  ┣ NotFoundException.class
+┃     ┣ Error.class
+┃     ┣ Success.class
+┃  ┃
 ┣ 📂 resources
 ┃  ┣ 📂 static
 ┃  ┣ 📂 templates
