@@ -1,4 +1,4 @@
-# 🍀 왔당 (what dang? : 뭐가 당연해?)
+![IMG_1798](https://github.com/33th-SOPKATHON-TEAM-APP3/Server/assets/101448999/b353245e-058a-46cb-9ef4-90e05854b007)# 🍀 왔당 (what dang? : 뭐가 당연해?)
 
 
 ## 🙆🏻‍♀️🙅🏻‍♂️ 프로젝트 설명 
@@ -87,7 +87,14 @@
 ┣ SopkathonApplication.class
 
 ```
+## 📢 아키텍쳐 구조도
+![image](https://github.com/33th-SOPKATHON-TEAM-APP3/Server/assets/101448999/b191d373-e8bd-4c62-8fef-dd5fc0873090)
 
+
+## 📢 실행 방법
+1. git clone을 진행한다.
+2. resources 폴더에 application.yaml을 추가한다.
+3. build/libs 디렉터리로 이동해 java -jar ios-three-0.0.1-SNAPSHOT.jar 명령어를 실행한다.
 
 # Git & Code Convention
 ### ✔️ [ 왔당 서버의 코드 컨벤션 보러가기 (클릭!) ](https://merciful-goldenrod-955.notion.site/Git-Convention-640d833fea504eb4aec83cf9cc52be4c?pvs=4)
@@ -95,4 +102,5 @@
 
 # API NEEDS
 ### ✔️ [ 왔당 서버의 API 명세서 보러가기 (클릭!) ](https://merciful-goldenrod-955.notion.site/API-1448b24b8cb94e1d9c12df0e013dd1f3?pvs=4)
+
 ---
