@@ -23,7 +23,8 @@ public enum Success {
 	 */
 	GET_EXAMPLE_SUCESS(HttpStatus.OK, "예시성공 코드"),
 	LOGIN_SUCCESS(HttpStatus.OK, "로그인이 성공했습니다."),
-	GET_MY_ANSWER_SUCCESS(HttpStatus.OK, "나의 답변 조회 성공")
+	GET_MY_ANSWER_SUCCESS(HttpStatus.OK, "나의 답변 조회 성공"),
+	GET_RANDOM_ANSWER_SUCCESS(HttpStatus.OK, "랜덤 답변 조회 성공")
 
 
 	/**
