@@ -27,10 +27,13 @@ public class Answer {
 	@JoinColumn(name = "question_id")
 	private Question question;
 
+	private String answerName;
+
 	@Builder
-	public Answer(User user, Question question){
+	public Answer(User user, Question question, String answerName){
 		this.user = user;
 		this.question = question;
+		this.answerName = answerName;
 	}
 
 }
