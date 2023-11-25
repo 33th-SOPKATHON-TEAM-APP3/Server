@@ -23,7 +23,10 @@ public class UserService {
 	@Transactional
 	public ApiResponse<SignUpResponse> signUp(SignUpRequest request){
 		Optional<User> user = userJpaRepository.findByIosId(request.iosId());
-		log.info("***********************");
+		if (user.isPresent()){
+			return	ApiResponse.success(Success.SIGNUP_SUCCESS, SignUpResponse.of(user.get().getId(), user.get()
+				.getIsAnswered()));
+		}
 		if (user.isEmpty()){	//새로운 유저 생성
 			User newUser = User.builder()
 				.iosId(request.iosId())
@@ -32,6 +35,7 @@ public class UserService {
 			userJpaRepository.save(newUser);
 			return ApiResponse.success(Success.SIGNUP_SUCCESS, SignUpResponse.of(newUser.getId(),newUser.getIsAnswered()));
 		}
+		System.out.println(user);
 		return login(user.get());
 	}
 
