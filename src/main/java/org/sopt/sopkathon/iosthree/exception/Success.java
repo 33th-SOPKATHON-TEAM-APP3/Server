@@ -15,6 +15,7 @@ public enum Success {
 	 * 201 CREATED
 	 */
 	CREATE_RESERVATION_SUCCESS(HttpStatus.CREATED, "예약 사이트로 이동 중 입니다."),
+	CREATE_TODAY_ANSWER_SUCCESS(HttpStatus.CREATED, "오늘의 답변 저장 성공"),
 
 
 	/**
