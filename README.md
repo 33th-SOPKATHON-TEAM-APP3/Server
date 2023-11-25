@@ -6,7 +6,7 @@
             <a href="https://github.com/ziiyouth">
               <img src="https://github.com/ziiyouth.png" width="100">
               <br />
-              <b>박지영 (ziiyouth)</b>
+              <b>박지영 (ziiyouth)</b>
             </a>
                        <br/>
               Server
