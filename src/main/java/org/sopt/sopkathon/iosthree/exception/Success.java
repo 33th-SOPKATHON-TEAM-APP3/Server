@@ -25,6 +25,8 @@ public enum Success {
 	LOGIN_SUCCESS(HttpStatus.OK, "로그인이 성공했습니다."),
 	GET_QUESTION_SUCCESS(HttpStatus.OK, "오늘의 질문 조회 성공"),
 
+	GET_MY_ANSWER_SUCCESS(HttpStatus.OK, "나의 답변 조회 성공")
+
 
 	/**
 	 * 204 NO_CONTENT
