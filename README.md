@@ -18,7 +18,7 @@
 
 
 ## ✨ ERD
-![image](https://github.com/33th-SOPKATHON-TEAM-APP3/Server/assets/101448999/8c44f97b-70a5-48f7-b110-10404de7e296)
+<img width="961" alt="image" src="https://github.com/33th-SOPKATHON-TEAM-APP3/Server/assets/101448999/d1f2a4cd-dfcd-4e90-9173-16b2384b2f25">
 
 
 
