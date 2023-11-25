@@ -32,18 +32,17 @@ public class QuestionService {
 	private final QuestionJpaRepository questionJpaRepository;
 	private final UserJpaRepository userJpaRepository;
 	private final AnswerJpaRepository answerJpaRepository;
-	private final Date today = Date.from(LocalDate.now().atStartOfDay(ZoneId.systemDefault()).toInstant());
+	private final LocalDate today = LocalDate.now();
 
 	public TodayQuestion getTodayQuestion(){
-		Optional<Question> question = questionJpaRepository.findByLocalDateTime(today);
-
-		return TodayQuestion.of(question.get().getQuestionId(), question.get().getQuestionName());
+		Question question = questionJpaRepository.findByLocalDateTime(today);
+		return TodayQuestion.of(question.getQuestionId(), question.getQuestionName());
 	}
 
 	public QuestionListDto getMyQuestion(Long userId) {
-		Optional<Question> question = questionJpaRepository.findByLocalDateTime(today);
+		Question question = questionJpaRepository.findByLocalDateTime(today);
 
-		TodayQuestion todayQuestion = TodayQuestion.of(question.get().getQuestionId(), question.get().getQuestionName());
+		TodayQuestion todayQuestion = TodayQuestion.of(question.getQuestionId(), question.getQuestionName());
 
 		User user = userJpaRepository.findByIdOrThrow(userId);
 		List<Answer> answerList = answerJpaRepository.findByUser(user); // 현재 유저가 답한 답변들

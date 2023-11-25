@@ -1,5 +1,6 @@
 package org.sopt.sopkathon.iosthree.domain;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 import jakarta.persistence.Entity;
@@ -20,6 +21,6 @@ public class Question {
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long questionId;
 
-	private Date localDateTime;
+	private LocalDate localDateTime;
 	private String questionName;
 }
