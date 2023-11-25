@@ -27,4 +27,8 @@ public class User {
 		this.isAnswered = isAnswered;
 	}
 
+	public void setIsAnswered(Boolean isAnswered) {
+		this.isAnswered = isAnswered;
+	}
+
 }
