@@ -15,6 +15,7 @@ public enum Success {
 	 * 201 CREATED
 	 */
 	SIGNUP_SUCCESS(HttpStatus.CREATED, "새 유저가 생성되었습니다."),
+	CREATE_TODAY_ANSWER_SUCCESS(HttpStatus.CREATED, "오늘의 답변 저장 성공"),
 
 
 	/**

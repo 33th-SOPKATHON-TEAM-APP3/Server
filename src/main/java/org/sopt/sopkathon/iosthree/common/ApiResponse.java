@@ -1,5 +1,7 @@
 package org.sopt.sopkathon.iosthree.common;
 
+import com.fasterxml.jackson.annotation.JsonRawValue;
+import lombok.Getter;
 import org.sopt.sopkathon.iosthree.exception.Error;
 import org.sopt.sopkathon.iosthree.exception.Success;
 
@@ -11,6 +13,7 @@ import lombok.RequiredArgsConstructor;
 @Getter
 @RequiredArgsConstructor(access = AccessLevel.PRIVATE)
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
+@Getter
 public class ApiResponse<T> {
 
 	private final int code;
