@@ -88,7 +88,9 @@
 
 ```
 ## 📢 아키텍쳐 구조도
-![image](https://github.com/33th-SOPKATHON-TEAM-APP3/Server/assets/101448999/b191d373-e8bd-4c62-8fef-dd5fc0873090)
+
+![image](https://github.com/33th-SOPKATHON-TEAM-APP3/Server/assets/101448999/e6f18606-032c-4290-9933-0a425e3b7f0c)
+
 
 
 ## 📢 실행 방법
