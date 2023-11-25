@@ -4,6 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.sopt.sopkathon.iosthree.controller.dto.request.TodayAnswerRequest;
 import org.sopt.sopkathon.iosthree.controller.dto.response.MyAnswerResponse;
 import org.sopt.sopkathon.iosthree.controller.dto.response.QuestionDto;
+import org.sopt.sopkathon.iosthree.controller.dto.response.RandomAnswerResponse;
 import org.sopt.sopkathon.iosthree.controller.dto.response.TodayAnswerResponse;
 import org.sopt.sopkathon.iosthree.domain.Answer;
 import org.sopt.sopkathon.iosthree.domain.Question;
@@ -14,7 +15,9 @@ import org.sopt.sopkathon.iosthree.infrastructure.UserJpaRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
 import java.util.Optional;
+import java.util.Random;
 
 @Service
 @RequiredArgsConstructor
@@ -54,7 +57,15 @@ public class AnswerService {
         String myAnswer = answerOptional.map(Answer::getAnswerName).orElse(null);
 
         return new MyAnswerResponse(questionDto, myAnswer);
+    }
 
+    public RandomAnswerResponse getRandomAnswer(Long questionId, Long userId){
+        List<Answer> answers = answerJpaRepository.findByQuestionAndUserNot(questionJpaRepository.findByIdOrThrow(questionId), userJpaRepository.findByIdOrThrow(userId));
+        if (answers.isEmpty()) {
+            return new RandomAnswerResponse(null);
+        }
+        Answer randomAnswer = answers.get(new Random().nextInt(answers.size()));
+        return new RandomAnswerResponse(randomAnswer.getAnswerName());
     }
 
 }

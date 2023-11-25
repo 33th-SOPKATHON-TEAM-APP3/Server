@@ -4,6 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.sopt.sopkathon.iosthree.common.ApiResponse;
 import org.sopt.sopkathon.iosthree.controller.dto.request.TodayAnswerRequest;
 import org.sopt.sopkathon.iosthree.controller.dto.response.MyAnswerResponse;
+import org.sopt.sopkathon.iosthree.controller.dto.response.RandomAnswerResponse;
 import org.sopt.sopkathon.iosthree.controller.dto.response.TodayAnswerResponse;
 import org.sopt.sopkathon.iosthree.exception.Success;
 import org.sopt.sopkathon.iosthree.service.AnswerService;
@@ -26,5 +27,10 @@ public class AnswerController {
     @GetMapping()
     public ApiResponse<MyAnswerResponse> getMyAnswer(@RequestParam("questionId") Long questionId, @RequestParam("userId") Long userId){
         return ApiResponse.success(Success.GET_MY_ANSWER_SUCCESS, answerService.getMyAnswer(questionId, userId));
+    }
+
+    @GetMapping("/random")
+    public ApiResponse<RandomAnswerResponse> getRandomAnswer(@RequestParam("questionId") Long questionId, @RequestParam("userId") Long userId){
+        return ApiResponse.success(Success.GET_RANDOM_ANSWER_SUCCESS, answerService.getRandomAnswer(questionId, userId));
     }
 }
