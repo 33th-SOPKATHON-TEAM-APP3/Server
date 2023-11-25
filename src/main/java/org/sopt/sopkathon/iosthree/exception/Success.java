@@ -14,14 +14,19 @@ public enum Success {
 	/**
 	 * 201 CREATED
 	 */
-	CREATE_RESERVATION_SUCCESS(HttpStatus.CREATED, "예약 사이트로 이동 중 입니다."),
+	SIGNUP_SUCCESS(HttpStatus.CREATED, "새 유저가 생성되었습니다."),
+	CREATE_TODAY_ANSWER_SUCCESS(HttpStatus.CREATED, "오늘의 답변 저장 성공"),
 
 
 	/**
 	 * 200 OK
 	 */
 	GET_EXAMPLE_SUCESS(HttpStatus.OK, "예시성공 코드"),
-
+	LOGIN_SUCCESS(HttpStatus.OK, "로그인이 성공했습니다."),
+	GET_MY_ANSWER_SUCCESS(HttpStatus.OK, "나의 답변 조회 성공"),
+	GET_RANDOM_ANSWER_SUCCESS(HttpStatus.OK, "랜덤 답변 조회 성공")
+	GET_QUESTION_SUCCESS(HttpStatus.OK, "오늘의 질문 조회 성공"),
+	GET_RANDOM_SUCCESS(HttpStatus.OK, "랜덤 질문 조회 완료"),
 
 	/**
 	 * 204 NO_CONTENT

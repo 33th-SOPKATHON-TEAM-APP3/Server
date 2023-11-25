@@ -1,11 +1,16 @@
 package org.sopt.sopkathon.iosthree.common;
 
+import com.fasterxml.jackson.annotation.JsonRawValue;
+import lombok.Getter;
 import org.sopt.sopkathon.iosthree.exception.Error;
 import org.sopt.sopkathon.iosthree.exception.Success;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
+
+@Getter
 @RequiredArgsConstructor(access = AccessLevel.PRIVATE)
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 public class ApiResponse<T> {
