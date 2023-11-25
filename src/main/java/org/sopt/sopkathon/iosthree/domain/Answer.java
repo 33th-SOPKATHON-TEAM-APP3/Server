@@ -9,10 +9,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Entity
 @Getter
@@ -29,5 +26,11 @@ public class Answer {
 	@ManyToOne
 	@JoinColumn(name = "question_id")
 	private Question question;
+
+	@Builder
+	public Answer(User user, Question question){
+		this.user = user;
+		this.question = question;
+	}
 
 }
