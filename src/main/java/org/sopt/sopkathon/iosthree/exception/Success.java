@@ -14,13 +14,14 @@ public enum Success {
 	/**
 	 * 201 CREATED
 	 */
-	CREATE_RESERVATION_SUCCESS(HttpStatus.CREATED, "예약 사이트로 이동 중 입니다."),
+	SIGNUP_SUCCESS(HttpStatus.CREATED, "새 유저가 생성되었습니다."),
 
 
 	/**
 	 * 200 OK
 	 */
 	GET_EXAMPLE_SUCESS(HttpStatus.OK, "예시성공 코드"),
+	LOGIN_SUCCESS(HttpStatus.OK, "로그인이 성공했습니다."),
 
 
 	/**

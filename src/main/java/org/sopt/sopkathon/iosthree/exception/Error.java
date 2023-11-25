@@ -13,7 +13,7 @@ public enum Error {
 	/**
 	 * 404 NOT FOUND
 	 */
-	EXAMPLE_NOT_FOUND(HttpStatus.NOT_FOUND, "예시 에러 코드"),
+	USER_NOT_FOUND(HttpStatus.NOT_FOUND, "예시 에러 코드"),
 
 	// NOT_FOUND(HttpStatus.NOT_FOUND, "항공사를 찾지 못했어요."),
 	/**
