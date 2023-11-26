@@ -1,5 +1,10 @@
 # 🍀 왔당 (what dang? : 뭐가 당연해?)
+## 🏆 33기 DO SOPT '솝커톤' iOS 부문 대상 수상작  
+![F8B040A5-FCE3-4832-AE5D-C33C868334A0](https://github.com/33th-SOPKATHON-TEAM-APP3/Server/assets/101448999/af597dee-f146-4fc7-b6d6-8de06953c1d5)
+
 <img width="1920" alt="Slide 16_9 - 33" src="https://github.com/33th-SOPKATHON-TEAM-APP3/Server/assets/101448999/a220866d-b537-4cc0-ad75-3866aa8b428f">
+
+
 
 ## 🙆🏻‍♀️🙅🏻‍♂️ 프로젝트 설명 
 > 🌟 33rd SOPT 해커톤, "솝커톤" iOS 3조
